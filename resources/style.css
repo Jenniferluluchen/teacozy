@@ -48,17 +48,23 @@ nav span{
   top: 330px;
 }
 main {
-  width: 1200px;
+  width: 1000px;
   margin: 150px auto;
 }
 .topic {
   text-align: center;
 }
 .menu {
+ display: flex;
+ flex-direction: column;
+}
+.first {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
+  justify-content: center;
+}
+.second {
+  display: flex;
+  justify-content: center;
 }
 main img {
   width: 300px;
