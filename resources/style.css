@@ -48,7 +48,7 @@ nav span{
   top: 330px;
 }
 main {
-  width: 1000px;
+  width: 1200px;
   margin: 150px auto;
 }
 .topic {
@@ -58,6 +58,7 @@ main {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
 }
 main img {
   width: 300px;
@@ -66,4 +67,35 @@ main img {
 figcaption {
   text-align: center;
   margin-top: 10px;
+}
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+}
+.location h2 {
+  padding-top: 90px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  align-items: center;
+}
+.footer {
+  margin: 0 auto;
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+}
+.copyright h5 {
+  margin-left: 20px;
+  text-align: left;
 }
